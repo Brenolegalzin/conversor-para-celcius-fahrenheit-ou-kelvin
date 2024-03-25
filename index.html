@@ -1,0 +1,52 @@
+<html lang="pt-br">
+  <head>
+    <title>conversor de celcius, fahrenheit e kelvin</title>
+  </head>
+  <body>
+    <center>
+      <h1>conversor de celcius, fahrenheit e kelvin</h1>
+      <p>de qual medida?</p>
+      <p>fahrenheit</p>
+      <input onclick="selecionar()" id="fahrenheit1" type="checkbox">
+      <p>celcius</p>
+      <input onclick="selecionar()" id="celcius1" type="checkbox">
+      <p>kelvin</p>
+      <input onclick="selecionar()" id="kelvin1" type="checkbox">
+      <p>para qual medida?</p>
+      <p>fahrenheit</p>
+      <input onclick="selecionar()" id="fahrenheit2" type="checkbox">
+      <p>celcius</p>
+      <input onclick="selecionar()" id="celcius2" type="checkbox">
+      <p>kelvin</p>
+      <div>
+        <input onclick="selecionar()" id="kelvin2" type="checkbox">
+      </div>
+      <input id="userInput">
+      <button onclick="calcular()">Calcular</button>
+      <p>Resultado :</p>
+      <p id="result"></p>
+    </center>
+  </body>
+  <style>
+    *{
+		background-color :white;
+	}
+	button{
+		background-color :gray;
+		font-family :'Arial';
+		border-color :gray;
+	}
+	p{
+		font-family :'Arial';
+	}
+	h1{
+		font-family :'Arial';
+		color :red;
+	}
+	input{
+		font-family :'Arial';
+		background-color :white;
+	}
+  </style>
+</html>
+<script src="script.js"></script>
